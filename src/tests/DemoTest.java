@@ -12,5 +12,6 @@ public class DemoTest {
 	public void demoTest() throws IOException {
 		System.setProperty("webdriver.chrome.driver", "driver-lib\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.navigate().to("http://cms.demo.katalon.com/");
 	}
 }
